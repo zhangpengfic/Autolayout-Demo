@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "CvC-El-I8k"; */
+"CvC-El-I8k.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Change Security"; ObjectID = "Mq1-oa-c0v"; */
+"Mq1-oa-c0v.normalTitle" = "Change Security";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "aVq-b3-RkJ"; */
+"aVq-b3-RkJ.text" = "Password";
+
+/* Class = "UILabel"; text = "Company"; ObjectID = "cFT-Wd-V0K"; */
+"cFT-Wd-V0K.text" = "Company";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "fez-b3-avz"; */
+"fez-b3-avz.text" = "Name";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "mNv-Pb-X46"; */
+"mNv-Pb-X46.text" = "Username";

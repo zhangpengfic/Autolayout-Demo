@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AutoLayout/Base.lproj/LaunchScreen.xib" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+    </header>
+    <body>
+      <trans-unit id="8ie-xW-0ye.text">
+        <source>  Copyright (c) 2015 H Hugo Fakman. All rights reserved.</source>
+        <target>  Copyright (c) 2015 H Hugo Fakman. All rights reserved.</target>
+        <note>Class = "UILabel"; text = "  Copyright (c) 2015 H Hugo Fakman. All rights reserved."; ObjectID = "8ie-xW-0ye";</note>
+      </trans-unit>
+      <trans-unit id="kId-c2-rCX.text">
+        <source>AutoLayout</source>
+        <target>AutoLayout</target>
+        <note>Class = "UILabel"; text = "AutoLayout"; ObjectID = "kId-c2-rCX";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AutoLayout/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+    </header>
+    <body>
+      <trans-unit id="CvC-El-I8k.normalTitle">
+        <source>Login</source>
+        <target>Login</target>
+        <note>Class = "UIButton"; normalTitle = "Login"; ObjectID = "CvC-El-I8k";</note>
+      </trans-unit>
+      <trans-unit id="Mq1-oa-c0v.normalTitle">
+        <source>Change Security</source>
+        <target>Change Security</target>
+        <note>Class = "UIButton"; normalTitle = "Change Security"; ObjectID = "Mq1-oa-c0v";</note>
+      </trans-unit>
+      <trans-unit id="aVq-b3-RkJ.text">
+        <source>Password</source>
+        <target>Password</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "aVq-b3-RkJ";</note>
+      </trans-unit>
+      <trans-unit id="cFT-Wd-V0K.text">
+        <source>Company</source>
+        <target>Company</target>
+        <note>Class = "UILabel"; text = "Company"; ObjectID = "cFT-Wd-V0K";</note>
+      </trans-unit>
+      <trans-unit id="fez-b3-avz.text">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "fez-b3-avz";</note>
+      </trans-unit>
+      <trans-unit id="mNv-Pb-X46.text">
+        <source>Username</source>
+        <target>Username</target>
+        <note>Class = "UILabel"; text = "Username"; ObjectID = "mNv-Pb-X46";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AutoLayout/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AutoLayoutTests/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

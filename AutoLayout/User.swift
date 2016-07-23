@@ -14,6 +14,7 @@ struct User
     let company: String
     let login: String
     let password: String
+    let lastLogin: NSDate
     
     static func login(login: String, password: String) -> User? {
         if let user = database[login] {
@@ -22,15 +23,17 @@ struct User
             }
         }
         return nil
+       
     }
 
      static let database: Dictionary<String, User> = {
         var theDatabase = Dictionary<String, User>()
         for user in [
-            User(name: "John Appleseed", company: "Apple", login: "japple", password: "foo"),
-            User(name: "Madison Bumgarner", company: "World Champion San Francisco Giants", login: "madbum", password: "foo"),
-            User(name: "John Hennessy", company: "Stanford", login: "hennessy", password: "foo"),
-            User(name: "Bad Guy", company: "Criminals, Inc.", login: "baddie", password: "foo")
+            User(name: "John Appleseed", company: "Apple", login: "japple", password: "foo", lastLogin: NSDate.init(timeIntervalSinceNow: 0)),
+            User(name: "Madison Bumgarner", company: "World Champion San Francisco Giants", login: "madbum", password: "foo", lastLogin:NSDate.init(timeIntervalSinceNow: 0)),
+            User(name: "John Hennessy", company: "Stanford", login: "hennessy", password: "foo", lastLogin:NSDate.init(timeIntervalSinceNow: 0)),
+            User(name: "Bad Guy", company: "Criminals, Inc.", login: "baddie", password: "foo", lastLogin:NSDate.init(timeIntervalSinceNow: 0))
+//             NSDateFormatter().dateFromString("2015-02-19 23:55:03 +0000")!
         ] {
             theDatabase[user.login] = user
         }

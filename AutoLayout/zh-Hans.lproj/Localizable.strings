@@ -1,0 +1,18 @@
+/* Message in an alert when the user types in an incorrent user name or password */
+"Invalid user name or password" = "无效的用户名或者密码";
+
+/* Reports the number of days ago and time that the user last logged in */
+"Last Login %@ days ago at %@" = "最后一次登录在 %1$@ 天前的 %2$@";
+
+/* Title of alert when user types in an incorrent user name or password */
+"Login Error" = "登录错误";
+
+/* Prompt for the user's password when it is not secure(i.e. plain text) */
+"Password" = "密码";
+
+/* Prompt for an obscured (not plain text) password */
+"Secured Password" = "安全的密码";
+
+/* The onlu button available in an alert presented when the user types incorrent user name or password */
+"Try Again" = "再试一次";
+
